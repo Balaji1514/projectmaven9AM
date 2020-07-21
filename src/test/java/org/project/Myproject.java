@@ -1,7 +1,10 @@
 package org.project;
 
 public class Myproject {
-
+private void details(String name, String number) {
+        System.out.println("Name ="+name+"  "+"Number ="+number);
+}
+		
 	public static void main(String[] args) {
 		String s1 = "Greens ";
         String s2 = "greens";
@@ -16,6 +19,9 @@ public class Myproject {
         System.out.println(x);
 		String substring = s3.substring(7, 13);
 		System.out.println(substring);
+		Myproject m = new Myproject();
+		m.details("balaji", "9677593594");
+		
 	}
 
 }
