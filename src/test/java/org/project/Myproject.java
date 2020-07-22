@@ -1,6 +1,10 @@
 package org.project;
 
 public class Myproject {
+public void merge(String a, String b ) {
+ String c = a.concat(b);
+ System.out.println(c); 
+}
 private void details(String name, String number) {
         System.out.println("Name ="+name+"  "+"Number ="+number);
 }
@@ -19,9 +23,13 @@ private void details(String name, String number) {
         System.out.println(x);
 		String substring = s3.substring(7, 13);
 		System.out.println(substring);
-		Myproject m = new Myproject();
-		m.details("balaji", "9677593594");
+		Myproject m =new Myproject();
+		m.merge("name", "name");
 		
+		char c = s1.charAt(3);
+		System.out.println(c);
+		Myproject p = new Myproject();
+		p.details("balaji", "9677593594");
 	}
 
 }
