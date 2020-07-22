@@ -5,6 +5,10 @@ public void merge(String a, String b ) {
  String c = a.concat(b);
  System.out.println(c); 
 }
+private void details(String name, String number) {
+        System.out.println("Name ="+name+"  "+"Number ="+number);
+}
+		
 	public static void main(String[] args) {
 		String s1 = "Greens ";
         String s2 = "greens";
@@ -24,6 +28,8 @@ public void merge(String a, String b ) {
 		
 		char c = s1.charAt(3);
 		System.out.println(c);
+		Myproject p = new Myproject();
+		p.details("balaji", "9677593594");
 	}
 
 }
